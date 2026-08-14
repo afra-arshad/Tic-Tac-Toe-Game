@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=10">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     
+
+
+    <div class="main">
+        <h1 class="heading"><span class="tic">Tic-</span>Tac-Toe<span class="Game">-Game</span> </h1>
+         <div class="gameboard">
+            <div class="gameinfo"><p class="currentplayer" id="currentplayer">Player X's Turn</p>
+            </div>
+            <div class="grid">
+                <div class="row">
+                    <div class="col" data-index="0"></div>
+                    <div class="col" data-index="1"></div>
+                    <div class="col" data-index="2"></div>
+                </div>
+                <div class="row">
+                    <div class="col" data-index="3"></div>
+                    <div class="col" data-index="4"></div>
+                    <div class="col" data-index="5"></div>
+                </div>
+                <div class="row">
+                    <div class="col" data-index="6"></div>
+                    <div class="col" data-index="7"></div>
+                    <div class="col" data-index="8"></div>
+                </div>
+            </div>
+         
+          <div class="gamestatus"id="gamestatus"></div>
+         <button class="ng-btn" id="resetBtn">New Game</button>
+         <button class="reset-btn"id="resetScoreBtn">Reset Score</button>
+        </div>
+
+
+
+       <div class="main2">
+        <h1 class="heading1">Score <span class="board">Board</span></h1>
+
+        <div class="score-board">
+            <div class="score x">
+             <div class="score-label">PLAYER X</div>
+             <div class="score-value" id="scoreX">0</div>
+            </div>
+
+             <div class="score tie">
+             <div class="score-label">TIES</div>
+             <div class="score-value" id="scoreTie">0</div>
+            </div>
+
+             <div class="score o">
+             <div class="score-label">PLAYER O</div>
+             <div class="score-value" id="scoreO">0</div>
+            </div>
+
+        </div>
+    </div>
+</div>
+     
+</body>
+</html>
+
+<script src="app.js"></script>
+
